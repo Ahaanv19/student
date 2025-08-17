@@ -31,11 +31,11 @@ hide: true
         <td>Arnav_2026</td>
     </tr>
     <tr>
-        <td>Scrummer</td>
-        <td>Nikhil</td>
-        <td></td>
+         <td>Assistant Scrum Master</td>
+        <td>Ahaan</td>
+        <td><a href="https://github.com/nikhilsna/student" target="_blank">github.com/Ahaanv19/student</a></td>
         <td>downstream</td>
-        <td></td>
+        <td>student</td>
     </tr>
     <tr>
         <td>Scrummer</td>
