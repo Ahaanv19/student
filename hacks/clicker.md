@@ -4,35 +4,45 @@ title: Clicker
 permalink: /clicker/
 ---
 
-## Clicker Game
+<h2 style="text-align: center;">Clicker Game</h2>
 
 <style>
+    button {
+        background-color: #636363;
+        color: black;
+        border-radius: 5px;
+        font-family: "Lucida Console";
+    }
+
+    button:hover {
+        background-color: #4a4949ff;
+        transition: 0.5s;
+    }
+
+    button:active {
+        background-color: #3b3b3b;
+        transition: 0.25s;
+    }
+
     .clicker {
         width: 800px;
         height: 200px;
-        color: white;
         font-size: 30px;
-        border-radius: 5px;
-        box-shadow: 1px 1px 1px grey;
+        box-shadow: 1px 1px 1px white;
     }
     .coin-counter {
-        color: white;
         font-size: 20px;
         text-align: center;
     }
     .upgrade-button {
         width: 100px;
         height: 50px;
-        color: white;
-        border-radius: 3px;
         position: relative;
         left: 31%;
     }
     .restart-button {
         width: 100px;
         height: 50px;
-        color: white;
-        border-radius: 3px;
         position: relative;
         left: 45%;
     }
