@@ -322,16 +322,16 @@ blockquote {
         <tr>
             <td>Assistant Scrum Master</td>
             <td>Ahaan</td>
-            <td><a href="https://github.com/nikhilsna/student" target="_blank">github.com/Ahaanv19/student</a></td>
+            <td><a href="https://github.com/nikhilsna/student" target="_blank">github.com/nikhilsna/student</a><a href="https://github.com/nikhilsna/student" target="_blank">github.com/Ahaanv19/student</a></td>
             <td>downstream</td>
-            <td>student</td>
+            <td>studentstudent</td>
         </tr>
         <tr>
             <td>Scrummer</td>
             <td>Spencer</td>
-            <td>-</td>
+            <td><a href="https://github.com/Frogpants/student_spencer" target="_blank">github.com/Frogpants/student_spencer</a>-</td>
             <td>downstream</td>
-            <td>-</td>
+            <td>student_spencer-</td>
         </tr>
         <tr>
             <td>Scrummer</td>
