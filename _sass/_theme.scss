@@ -1,0 +1,64 @@
+// Theme Colors
+$primary: #38b2ac;
+$primary-dark: #2d3748;
+$primary-light: #e6fffa;
+$accent: #3182ce;
+$warning: #f6ad55;
+$error: #fc8181;
+$success: #68d391;
+$background: #f9f9f9;
+$box-bg: #fff;
+$shadow: 0 2px 8px #38b2ac22;
+
+// Example usage
+.frq-box {
+  border: 1px solid #ccc;
+  padding: 12px;
+  border-radius: 8px;
+  margin: 15px 0;
+  background: $background;
+}
+
+textarea {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 6px;
+  border-radius: 6px;
+}
+
+.info-content {
+  background: $box-bg;
+  border-radius: 8px;
+  box-shadow: $shadow;
+}
+
+.tree-item {
+  &.directory { color: $success; }
+  &.config-file { color: $warning; }
+  &.markdown-file { color: $error; }
+  &.regular-file { color: #90cdf4; }
+}
+
+.default-text {
+  color: $primary-dark;
+}
+
+.primary-text {
+  color: $primary;
+}
+
+.accent-text {
+  color: $accent;
+}
+
+.warning-text {
+  color: $warning;
+}
+
+.success-text {
+  color: $success;
+}
+
+.error-text {
+  color: $error;
+}
