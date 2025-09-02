@@ -1,21 +1,24 @@
+const cameraController = {
+  camera: {
+    x: 0,
+    y: 0,
+    zoom: 1,
+  },
+  followSpeed: 0.08,
+  target: null,
 
-export const camera = {
-  x: 0,
-  y: 0,
-  zoom: 1,
+  updateCamera() {
+    this.camera.x += this.followSpeed * (this.target.x - this.camera.x);
+    this.camera.y += this.followSpeed * (this.target.y - this.camera.y);
+    this.camera.zoom += this.followSpeed * (this.target.zoom - this.camera.zoom);
+  },
+
+  setCameraTarget(newTarget) {
+    this.target = { ...newTarget };
+  },
 };
 
- export var followSpeed = 0.08;
+// Initialize target as camera itself
+cameraController.target = { ...cameraController.camera };
 
-export const target = camera;
-
-export function updateCamera() {
-    camera.x += followSpeed * (target.x - camera.x);
-    camera.y += followSpeed * (target.y - camera.y);
-    camera.zoom += followSpeed * (target.zoom - camera.zoom);
-};
-
-export function setCameraTarget(newTarget) {
-    target.x = newTarget.x;
-    target.y = newTarget.y;
-};
+export default cameraController;
